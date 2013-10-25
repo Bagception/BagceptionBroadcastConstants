@@ -15,6 +15,8 @@ public interface BagceptionBroadcastContants {
 	public static final String USB_CONNECTION_BROADCAST_RFIDSCAN = "de.uniulm.bagception.service.broadcast.usbconnection.rfidscan";
 	//BT
 	public static final String BROADCAST_CLIENTS_CONNECTION_UPDATE = "de.uniulm.bagception.bluetoothserver.service.BluetoothServerHandler.clientsconnectedupdate";
+	public static final String BROADCAST_CLIENTS_CONNECTION_UPDATE_REQUEST = "de.uniulm.bagception.bluetoothserver.service.BluetoothServerHandler.clientsconnectedupdaterequest";
+
 
 
 }
