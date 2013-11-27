@@ -27,4 +27,14 @@ public interface BagceptionBroadcastContants {
 	public static final int CASE_OPEN_STATE_CHANGED_TO_CLOSED=2;
 
 
+	//BundleMessage
+	public static final String BROADCAST_BUNDLEMESSAGE_COMMAND_INTENT = "de.uniulm.bagception.broadcast.bundlemessage.command";
+	public static final String BROADCAST_BUNDLEMESSAGE_STATUS_INTENT = "de.uniulm.bagception.broadcast.bundlemessage.status";
+	public static final String BROADCAST_BUNDLEMESSAGE_RESPONSE_INTENT = "de.uniulm.bagception.broadcast.bundlemessage.response";
+	public static final String BROADCAST_BUNDLEMESSAGE_RESPONSE_ANSWER_INTENT = "de.uniulm.bagception.broadcast.bundlemessage.responseanswer";
+	public static final String BROADCAST_BUNDLEMESSAGE_MESSAGE_RECV_INTENT = "de.uniulm.bagception.broadcast.bundlemessage.messagerecv";
+	public static final String BROADCAST_BUNDLEMESSAGE_MESSAGE_SEND_INTENT = "de.uniulm.bagception.broadcast.bundlemessage.messagesend";
+	
+	
+	
 }
