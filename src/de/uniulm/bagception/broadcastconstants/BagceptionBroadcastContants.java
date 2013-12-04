@@ -8,6 +8,7 @@ public interface BagceptionBroadcastContants {
 	public static final String BROADCAST_RFID_NOTCONNECTED = "de.uniulm.bagception.rfid.broadcast.notconnected";
 	public static final String BROADCAST_RFID_STARTSCAN = "de.uniulm.bagception.service.broadcast.usbconnection.rfidscan";
 	public static final String BROADCAST_RFID_STOPSCAN = "de.uniulm.bagception.service.broadcast.usbconnection.rfidstopscan";
+	public static final String BROADCAST_RFID_START_SCANNING = "de.uniulm.bagception.service.broadcast.usbconnection.rfidstartscan";
 	
 	//USB
 	public static final String USB_CONNECTION_BROADCAST_RESCAN = "de.uniulm.bagception.service.broadcast.usbconnection.rescan";
