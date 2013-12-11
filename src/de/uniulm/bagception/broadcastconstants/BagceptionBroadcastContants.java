@@ -38,6 +38,12 @@ public interface BagceptionBroadcastContants {
 	public static final String BROADCAST_BUNDLEMESSAGE_MESSAGE_RECV_INTENT = "de.uniulm.bagception.broadcast.bundlemessage.messagerecv";
 	public static final String BROADCAST_BUNDLEMESSAGE_MESSAGE_SEND_INTENT = "de.uniulm.bagception.broadcast.bundlemessage.messagesend";
 	
-	
+	//WeatherForecast
+	public static final String BROADCAST_WEATHERFORECAST_GET_FORECAST = "de.uniulm.bagception.broadcast.weatherforecast.getforecast";
+	public static final String BROADCAST_WEATHERFORECAST_LATITUDE1 = "de.uniulm.bagception.broadcast.weatherforecast.lat1";
+	public static final String BROADCAST_WEATHERFORECAST_LATITUDE2 = "de.uniulm.bagception.broadcast.weatherforecast.lat2";
+	public static final String BROADCAST_WEATHERFORECAST_LONGITUDE1 = "de.uniulm.bagception.broadcast.weatherforecast.long1";
+	public static final String BROADCAST_WEATHERFORECAST_LONGITUDE2 = "de.uniulm.bagception.broadcast.weatherforecast.long2";
+
 	
 }
